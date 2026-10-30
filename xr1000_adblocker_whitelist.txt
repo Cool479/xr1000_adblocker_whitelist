@@ -8,6 +8,75 @@
 # 4. Paste the domain rules below into your whitelist configuration.
 # ==============================================================================
 
+# --- [ DOWNLOAD SITES, FILE REPOSITORIES & MIRRORS ] ---
+# File-hosting services, mod platforms, cloud drives, and download networks
+.github.com
+.githubusercontent.com          # Essential for raw file downloads & release binaries
+.sourceforge.net
+.mediafire.com
+.mega.nz
+.megaupload.com
+.googleusercontent.com          # Google Drive / Direct download CDN
+.dropbox.com
+.dropboxusercontent.com
+.wetransfer.com
+.nexusmods.com                  # Game mod downloads
+.curseforge.com                 # Game mod/addon downloads
+.archive.org                    # Internet Archive downloads
+.moddb.com                      # Game modifications & patches
+.7-zip.org
+.s3.amazonaws.com               # Amazon Web Services download buckets
+.backblazeb2.com                # Backblaze cloud storage downloads
+.fastly.net                     # Fastly Content Delivery Network
+.cloudfront.net                 # Amazon CloudFront CDN
+.onedrive.live.com
+.1drv.ms
+
+# --- [ HARDWARE DRIVERS & SOFTWARE UPDATES ] ---
+# GPU drivers, motherboard tools, and software downloadees
+.nvidia.com
+.geforce.com
+.amd.com
+.intel.com
+.realtek.com
+.asus.com
+.msi.com
+.gigabyte.com
+.corsair.com
+.logitech.com
+.razer.com
+
+# --- [ LINUX DISTROS & OPEN SOURCE MIRRORS ] ---
+# ISO images, package managers, and software repositories
+.ubuntu.com
+.debian.org
+.archlinux.org
+.fedoraproject.org
+.kernel.org
+.flathub.org                    # Flatpak apps
+.snapcraft.io                   # Snap packages
+
+# --- [ GAMING PLATFORMS & DOWNLOAD SERVERS (XR1000 OPTIMIZED) ] ---
+# Launchers, store pages, matchmaking, game assets, and patches
+.steampowered.com
+.steamcommunity.com
+.steamcontent.com               # Primary Steam download content servers
+.epicgames.com
+.playstation.com
+.playstation.net
+.xboxlive.com
+.xbox.com
+.ea.com
+.origin.com
+.battlenet.com
+.blizzard.com
+.riotgames.com
+.ubisoft.com
+.roblox.com
+.gog.com                        # Good Old Games store & downloads
+.itch.io                        # Indie game store & downloads
+.gog-statics.com
+
 # --- [ ESSENTIAL SYSTEM & OPERATING SYSTEM SERVICES ] ---
 # Prevents false positives with system updates, telemetry, and OS features
 .microsoft.com
@@ -16,22 +85,6 @@
 .icloud.com
 .gvt1.com                       # Google software updates & Play Store downloads
 .android.com
-
-# --- [ GAMING PLATFORMS & SERVICES (XR1000 OPTIMIZED) ] ---
-# Keeps game launchers, store pages, matchmaking, and voice chat functional
-.steampowered.com
-.steamcommunity.com
-.epicgames.com
-.playstation.com
-.playstation.net
-.xboxlive.com
-.xbox.com
-.ea.com
-.battlenet.com
-.blizzard.com
-.riotgames.com
-.ubisoft.com
-.roblox.com
 
 # --- [ VIDEO STREAMING & CONTENT DELIVERY ] ---
 # Prevents video playback errors on smart TVs and gaming consoles
@@ -45,15 +98,10 @@
 .disneyplus.com
 .primevideo.com
 
-# --- [ AFFILIATE LINKS & SHOPPING REDIRECTS ] ---
-# Uncomment/add if adblocker breaks Google Shopping or cashback links
-# .googleadservices.com         # Enables Google search shopping links
-# .doubleclick.net              # Frequently used for affiliate link redirects
-# .amazon.com
-# .rakuten.com
-
-# --- [ GENERAL / MISC TRUSTED DOMAINS ] ---
-.github.com
+# --- [ COMMUNICATION & VOIP SERVICES ] ---
 .discord.com
 .discordapp.com
+.discord.gg
+.zoom.us
+.teams.microsoft.com
 ==============================================================================
