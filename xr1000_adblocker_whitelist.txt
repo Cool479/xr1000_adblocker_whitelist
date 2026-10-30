@@ -1,0 +1,59 @@
+# ==============================================================================
+# NETGEAR NIGHTHAWK XR1000 (DUMAOS) - ADBLOCKER ALLOWLIST / WHITELIST
+# ==============================================================================
+# Instructions for XR1000 DumaOS:
+# 1. Log into your router dashboard (default: http://routerlogin.net)
+# 2. Open the "Adblocker" app from the left menu bar.
+# 3. Go to the "Whitelist" or "Allowlist" tab.
+# 4. Paste the domain rules below into your whitelist configuration.
+# ==============================================================================
+
+# --- [ ESSENTIAL SYSTEM & OPERATING SYSTEM SERVICES ] ---
+# Prevents false positives with system updates, telemetry, and OS features
+.microsoft.com
+.windowsupdate.com
+.apple.com
+.icloud.com
+.gvt1.com                       # Google software updates & Play Store downloads
+.android.com
+
+# --- [ GAMING PLATFORMS & SERVICES (XR1000 OPTIMIZED) ] ---
+# Keeps game launchers, store pages, matchmaking, and voice chat functional
+.steampowered.com
+.steamcommunity.com
+.epicgames.com
+.playstation.com
+.playstation.net
+.xboxlive.com
+.xbox.com
+.ea.com
+.battlenet.com
+.blizzard.com
+.riotgames.com
+.ubisoft.com
+.roblox.com
+
+# --- [ VIDEO STREAMING & CONTENT DELIVERY ] ---
+# Prevents video playback errors on smart TVs and gaming consoles
+.youtube.com
+.googlevideo.com                # Critical for YouTube video delivery
+.twitch.tv
+.ttvnw.net
+.netflix.com
+.nflxvideo.net
+.hulu.com
+.disneyplus.com
+.primevideo.com
+
+# --- [ AFFILIATE LINKS & SHOPPING REDIRECTS ] ---
+# Uncomment/add if adblocker breaks Google Shopping or cashback links
+# .googleadservices.com         # Enables Google search shopping links
+# .doubleclick.net              # Frequently used for affiliate link redirects
+# .amazon.com
+# .rakuten.com
+
+# --- [ GENERAL / MISC TRUSTED DOMAINS ] ---
+.github.com
+.discord.com
+.discordapp.com
+==============================================================================
